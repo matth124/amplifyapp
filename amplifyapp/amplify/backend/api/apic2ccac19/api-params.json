@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/users/errol/desktop/test",
+            "lambdaFunction": "amplifyapp75e845dc",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/users/errol/desktop/test"
+        }
+    ],
+    "resourceName": "apic2ccac19",
+    "apiName": "apic2ccac19",
+    "functionArns": [
+        {
+            "lambdaFunction": "amplifyapp75e845dc"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplifyapp-dev-165313-authRole",
+        "unAuthRoleName": "amplify-amplifyapp-dev-165313-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "amplifyapp75e845dc",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
